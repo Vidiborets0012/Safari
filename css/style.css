@@ -260,3 +260,11 @@ body {
   font-size: 16px;
   margin-bottom: 15px;
 }
+
+.map {
+  margin-bottom: 100px;
+}
+
+.map-title {
+  margin-bottom: 46px;
+}
