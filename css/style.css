@@ -145,3 +145,23 @@ body {
   margin: 0 auto;
   margin-bottom: 15px;
 }
+
+.direction {
+  padding: 100px 0;
+}
+
+.direction-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.direction-item {
+  border: 1px solid #d9d9de;
+}
+
+.direction-text {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 12px 19px 19px 19px;
+}
