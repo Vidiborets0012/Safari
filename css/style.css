@@ -563,6 +563,11 @@ body {
   .menu-list {
     gap: 96px;
   }
+
+  .travel-info-items {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -672,10 +677,27 @@ body {
   .direction {
     padding: 50px 0;
   }
+
+  .travel-info-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .travel-info {
+    margin-bottom: 50px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 468px) {
   .direction-inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .travel-info-items {
     grid-template-columns: repeat(1, 1fr);
   }
 }
