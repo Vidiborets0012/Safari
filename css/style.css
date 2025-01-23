@@ -557,6 +557,11 @@ body {
   .direction-img {
     width: 100%;
   }
+
+  .about-inner {
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -622,6 +627,22 @@ body {
 
   .map-iframe {
     height: 400px;
+  }
+
+  .about-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .about-popup {
+    min-height: 400px;
+  }
+
+  .about {
+    margin-bottom: 50px;
+  }
+
+  .about-content {
+    margin-bottom: 30px;
   }
 }
 
@@ -742,5 +763,11 @@ body {
 
   .travel-info-items {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .about-popup {
+    min-height: 280px;
   }
 }
