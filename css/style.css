@@ -562,6 +562,15 @@ body {
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
   }
+
+  .gallery-item-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-item-img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -643,6 +652,10 @@ body {
 
   .about-content {
     margin-bottom: 30px;
+  }
+
+  .gallery {
+    margin-bottom: 50px;
   }
 }
 
@@ -753,6 +766,29 @@ body {
 
   .popular-items {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery-item-inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery-title {
+    width: 100%;
+    text-align: left;
+  }
+
+  .gallery-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-right: 160px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .gallery {
+    padding: 25px 0;
   }
 }
 
