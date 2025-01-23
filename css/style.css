@@ -615,6 +615,14 @@ body {
     font-size: 80px;
     line-height: 100px;
   }
+
+  .map {
+    margin-bottom: 50px;
+  }
+
+  .map-iframe {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 560px) {
